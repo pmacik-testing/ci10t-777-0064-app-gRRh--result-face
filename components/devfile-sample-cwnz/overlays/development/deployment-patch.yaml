@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-cwnz
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/ci10t-777-0064-tenant/ci10t-777-0064-app/devfile-sample-cwnz@sha256:8fa691f7435ef8b4db7b984b8dbee5d42ad3f02918b46be7087c6c4834ecbc28
+        name: my-nodejs
+        resources: {}
+status: {}
